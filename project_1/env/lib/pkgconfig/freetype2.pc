@@ -1,0 +1,14 @@
+prefix=/Users/akiva/Desktop/project_1/env
+exec_prefix=/Users/akiva/Desktop/project_1/env
+libdir=/Users/akiva/Desktop/project_1/env/lib
+includedir=/Users/akiva/Desktop/project_1/env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.0.18
+Requires:
+Requires.private: 
+Libs: -L${libdir} -lfreetype
+Libs.private: -lz -L/Users/akiva/Desktop/project_1/env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

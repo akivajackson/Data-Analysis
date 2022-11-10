@@ -1,0 +1,13 @@
+prefix=/Users/akiva/Desktop/project_1/env
+exec_prefix=/Users/akiva/Desktop/project_1/env
+libdir=/Users/akiva/Desktop/project_1/env/lib
+sharedlibdir=/Users/akiva/Desktop/project_1/env/lib
+includedir=/Users/akiva/Desktop/project_1/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
